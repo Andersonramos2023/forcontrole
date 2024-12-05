@@ -11,8 +11,10 @@
     let somaNotas = 0;
 
     for (let numero = 1; numero <= quantidadeNotas; numero++){
+
         const nota = Number(prompt(` Informe a nota ${numero} de ${quantidadeNotas}:`));
         somaNotas = somaNotas + nota;
+        
     }
 
     document.write(`Essa será sua nota: ${somaNotas / quantidadeNotas}`);
